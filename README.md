@@ -4,7 +4,7 @@ UI2Code Arena 是 `UI2Code Subnet` 的开源演示项目。
 
 它展示的不是一个已经完整上线的 Bittensor 子网，而是一个面向 `UI design -> frontend code` 场景的 **benchmark arena / subnet dashboard prototype**：用可视化方式解释这个子网为什么成立、如何评分、如何分配激励，以及验证者如何做反作弊。
 
-对应提案文档：[`演讲/ui_2_code_subnet_proposal.md`](../演讲/ui_2_code_subnet_proposal.md)
+对应提案文档：[`ui_2_code_subnet_proposal.md`](ui_2_code_subnet_proposal.md)
 
 ## Why This Exists
 

@@ -708,7 +708,44 @@ The long-term vision is to create an open, competitive, continuously improving n
 
 ---
 
-## 16. Conclusion
+## 16. Open-source Prototype
+
+To support the proposal, we have released an open-source demo repository:
+
+**GitHub:** https://github.com/yolaucn/ui2code-arena
+
+UI2Code Arena is the first public prototype of the UI2Code Subnet concept.  
+It is not yet a fully deployed Bittensor subnet, but a runnable benchmark arena and subnet dashboard prototype that demonstrates the core product logic behind the proposal.
+
+The current implementation includes:
+
+- A React + Vite frontend dashboard
+- A Node.js + Express backend API
+- Miner leaderboard visualization
+- Incentive curve simulator based on score-based reward distribution
+- Benchmark task submission flow
+- Anti-cheat mechanism visualization
+- taostats.io data integration with mock-data fallback
+
+This prototype helps demonstrate four key ideas of the subnet:
+
+1. UI-to-code can be treated as a measurable benchmark task.
+2. Miners can be ranked by score, latency, weight, and reward.
+3. Nonlinear reward curves can encourage higher-quality outputs.
+4. Validators need sandbox execution, scoring, and anti-cheat mechanisms.
+
+The repository currently serves as the open-source demonstration layer for UI2Code Subnet.  
+Future development will extend it toward a real subnet prototype by adding:
+
+- UI screenshot upload
+- Code generation pipeline
+- Validator sandbox execution
+- Screenshot rendering and visual similarity scoring
+- Lighthouse / accessibility checks
+- Standardized miner response format
+- Bittensor testnet integration
+
+## 17. Conclusion
 
 UI2Code is a strong Bittensor subnet candidate because it targets a real, frequent, expensive, and objectively measurable workflow.
 
